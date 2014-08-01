@@ -1,0 +1,355 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		494776A2198837E60099497F /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 494776A1198837E60099497F /* Cocoa.framework */; };
+		494776AC198837E60099497F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 494776AA198837E60099497F /* InfoPlist.strings */; };
+		494776AE198837E60099497F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 494776AD198837E60099497F /* main.m */; };
+		494776B2198837E60099497F /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 494776B0198837E60099497F /* Credits.rtf */; };
+		494776B5198837E60099497F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 494776B4198837E60099497F /* AppDelegate.m */; };
+		494776B8198837E60099497F /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 494776B6198837E60099497F /* MainMenu.xib */; };
+		494776BA198837E60099497F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 494776B9198837E60099497F /* Images.xcassets */; };
+		4973418B198966DC004F6958 /* Connection.m in Sources */ = {isa = PBXBuildFile; fileRef = 49734188198966DC004F6958 /* Connection.m */; };
+		4973418C198966DC004F6958 /* Server.m in Sources */ = {isa = PBXBuildFile; fileRef = 4973418A198966DC004F6958 /* Server.m */; };
+		49734196198970C8004F6958 /* ParamShowWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49734194198970C8004F6958 /* ParamShowWindowController.m */; };
+		49734197198970C8004F6958 /* ParamShowWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49734195198970C8004F6958 /* ParamShowWindowController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4947769E198837E60099497F /* LaunchControlParameterShow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LaunchControlParameterShow.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		494776A1198837E60099497F /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		494776A4198837E60099497F /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		494776A5198837E60099497F /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		494776A6198837E60099497F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		494776A9198837E60099497F /* LaunchControlParameterShow-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LaunchControlParameterShow-Info.plist"; sourceTree = "<group>"; };
+		494776AB198837E60099497F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		494776AD198837E60099497F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		494776AF198837E60099497F /* LaunchControlParameterShow-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LaunchControlParameterShow-Prefix.pch"; sourceTree = "<group>"; };
+		494776B1198837E60099497F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		494776B3198837E60099497F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		494776B4198837E60099497F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		494776B7198837E60099497F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		494776B9198837E60099497F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		494776C0198837E60099497F /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		49734187198966DC004F6958 /* Connection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Connection.h; sourceTree = "<group>"; };
+		49734188198966DC004F6958 /* Connection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Connection.m; sourceTree = "<group>"; };
+		49734189198966DC004F6958 /* Server.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Server.h; sourceTree = "<group>"; };
+		4973418A198966DC004F6958 /* Server.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Server.m; sourceTree = "<group>"; };
+		4973418D19896E6B004F6958 /* ConnectionDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConnectionDelegate.h; sourceTree = "<group>"; };
+		49734193198970C8004F6958 /* ParamShowWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParamShowWindowController.h; sourceTree = "<group>"; };
+		49734194198970C8004F6958 /* ParamShowWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParamShowWindowController.m; sourceTree = "<group>"; };
+		49734195198970C8004F6958 /* ParamShowWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ParamShowWindowController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4947769B198837E60099497F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				494776A2198837E60099497F /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		49477695198837E60099497F = {
+			isa = PBXGroup;
+			children = (
+				494776A7198837E60099497F /* LaunchControlParameterShow */,
+				494776A0198837E60099497F /* Frameworks */,
+				4947769F198837E60099497F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4947769F198837E60099497F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4947769E198837E60099497F /* LaunchControlParameterShow.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		494776A0198837E60099497F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				494776A1198837E60099497F /* Cocoa.framework */,
+				494776C0198837E60099497F /* XCTest.framework */,
+				494776A3198837E60099497F /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		494776A3198837E60099497F /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				494776A4198837E60099497F /* AppKit.framework */,
+				494776A5198837E60099497F /* CoreData.framework */,
+				494776A6198837E60099497F /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		494776A7198837E60099497F /* LaunchControlParameterShow */ = {
+			isa = PBXGroup;
+			children = (
+				494776B3198837E60099497F /* AppDelegate.h */,
+				494776B4198837E60099497F /* AppDelegate.m */,
+				494776B6198837E60099497F /* MainMenu.xib */,
+				4973418D19896E6B004F6958 /* ConnectionDelegate.h */,
+				49734187198966DC004F6958 /* Connection.h */,
+				49734188198966DC004F6958 /* Connection.m */,
+				49734189198966DC004F6958 /* Server.h */,
+				4973418A198966DC004F6958 /* Server.m */,
+				49734193198970C8004F6958 /* ParamShowWindowController.h */,
+				49734194198970C8004F6958 /* ParamShowWindowController.m */,
+				49734195198970C8004F6958 /* ParamShowWindowController.xib */,
+				494776B9198837E60099497F /* Images.xcassets */,
+				494776A8198837E60099497F /* Supporting Files */,
+			);
+			path = LaunchControlParameterShow;
+			sourceTree = "<group>";
+		};
+		494776A8198837E60099497F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				494776A9198837E60099497F /* LaunchControlParameterShow-Info.plist */,
+				494776AA198837E60099497F /* InfoPlist.strings */,
+				494776AD198837E60099497F /* main.m */,
+				494776AF198837E60099497F /* LaunchControlParameterShow-Prefix.pch */,
+				494776B0198837E60099497F /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4947769D198837E60099497F /* LaunchControlParameterShow */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 494776CF198837E60099497F /* Build configuration list for PBXNativeTarget "LaunchControlParameterShow" */;
+			buildPhases = (
+				4947769A198837E60099497F /* Sources */,
+				4947769B198837E60099497F /* Frameworks */,
+				4947769C198837E60099497F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LaunchControlParameterShow;
+			productName = LaunchControlParameterShow;
+			productReference = 4947769E198837E60099497F /* LaunchControlParameterShow.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		49477696198837E60099497F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = mcdreamer;
+			};
+			buildConfigurationList = 49477699198837E60099497F /* Build configuration list for PBXProject "LaunchControlParameterShow" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 49477695198837E60099497F;
+			productRefGroup = 4947769F198837E60099497F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4947769D198837E60099497F /* LaunchControlParameterShow */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4947769C198837E60099497F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				494776AC198837E60099497F /* InfoPlist.strings in Resources */,
+				494776BA198837E60099497F /* Images.xcassets in Resources */,
+				49734197198970C8004F6958 /* ParamShowWindowController.xib in Resources */,
+				494776B2198837E60099497F /* Credits.rtf in Resources */,
+				494776B8198837E60099497F /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4947769A198837E60099497F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				494776B5198837E60099497F /* AppDelegate.m in Sources */,
+				49734196198970C8004F6958 /* ParamShowWindowController.m in Sources */,
+				494776AE198837E60099497F /* main.m in Sources */,
+				4973418C198966DC004F6958 /* Server.m in Sources */,
+				4973418B198966DC004F6958 /* Connection.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		494776AA198837E60099497F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				494776AB198837E60099497F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		494776B0198837E60099497F /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				494776B1198837E60099497F /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		494776B6198837E60099497F /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				494776B7198837E60099497F /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		494776CD198837E60099497F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		494776CE198837E60099497F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		494776D0198837E60099497F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LaunchControlParameterShow/LaunchControlParameterShow-Prefix.pch";
+				INFOPLIST_FILE = "LaunchControlParameterShow/LaunchControlParameterShow-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		494776D1198837E60099497F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LaunchControlParameterShow/LaunchControlParameterShow-Prefix.pch";
+				INFOPLIST_FILE = "LaunchControlParameterShow/LaunchControlParameterShow-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		49477699198837E60099497F /* Build configuration list for PBXProject "LaunchControlParameterShow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				494776CD198837E60099497F /* Debug */,
+				494776CE198837E60099497F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		494776CF198837E60099497F /* Build configuration list for PBXNativeTarget "LaunchControlParameterShow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				494776D0198837E60099497F /* Debug */,
+				494776D1198837E60099497F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 49477696198837E60099497F /* Project object */;
+}
